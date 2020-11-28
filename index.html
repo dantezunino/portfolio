@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width,initial-scale=1'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css">
+        <script src="app.js"></script>
+
+        <style>
+            .shower{
+                display: none;
+            }
+        </style>
+    </head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor03">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CV</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+<div id="english">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+            <div class="jumbotron">
+                <h1 class="display-3">Welcome!</h1>
+                <p class="lead">This is my portfolio. I hope i can show you, through it, some habilities you consider worth for your proyect. It's been 2 year now since 
+                    i stumble upon my first "Hello World!" and i find myself really enjoying the time i've spend writing code since then.
+                </p>
+                <hr class="my-4">
+                <p>In the navigation bar at top there are links to my LinkedIn profile and to my Curriculum Vitae.</p>
+                <p>At right and at the bottom of this page you will find links to some quick projects that pretend to show you some of my habilities.</p>
+                <p>Through the last month i've been thinking on different ways to show some of the things i've learn, and i believe i've achieve that here.</p>
+                <p class="lead">
+                <a class="btn btn-primary btn-lg" onclick="changeLang()" role="button">CHANGE LANGUAJE</a>
+                </p>
+            </div>
+            <table class="table table-hover">
+                <tbody>
+                <tr class="table-info">
+                    <th scope="row">Tools and languajes: </th>
+                    <td><span class="badge badge-success">JS</span><span class="badge badge-success">Svelte</span><br><span class="badge badge-success">Java</span><span class="badge badge-success">Sapper</span></td>
+                    <td><span class="badge badge-light">HTML</span><span class="badge badge-light">CSS</span><br><span class="badge badge-light">Bulma</span><span class="badge badge-light">Bootstrap</span></td>
+                    <td><span class="badge badge-warning">NodeJS</span><span class="badge badge-warning">Express</span><span class="badge badge-warning">Socket.io</span></td>
+                    <td><span class="badge badge-primary">JSON</span><span class="badge badge-primary">XML</span><span class="badge badge-primary">SQLite</span></td>
+                    <td><span class="badge badge-secondary">GIT</span></td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col-4">
+                <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                    <div class="card-header"><a href="https://dantezunino.github.io/tretris/tetristry.html" target="_blank" rel="noopener noreferrer">Short Tetris Tutorial</a></div>
+                    <div class="card-body">
+                    <h4 class="card-title">Reading someone else's code</h4>
+                    <a href="https://dantezunino.github.io/tretris/tetristry.html" target="_blank" rel="noopener noreferrer"><img src = "tretris.png" class = "img-thumbnail"></a>
+                    <br><br>
+                    <p class="card-text">I wanted to make a small game. Searching i found this Ania Kubów tutorial and decide to try it. The idea is to show begginers 
+                        how to do some basic things. Without changing the main structure i attempted to change some of the problems i find.
+                    </p>
+                    <p>What does this exercise tries to show?</p>
+                    <ul>
+                        <li>Hability to read and understand someone else's code.</li>
+                        <li>Hability to modify someone else's code.</li>
+                        <li>Basic understandment of vanilla JavaScript, HTML and CSS.</li>
+                        <li>Hability to follow instructions and execute them.</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://dantezunino.github.io/mostros/mostros.html" target="_blank" rel="noopener noreferrer">DnD Monsters</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Using static DB</h4>
+                <br>
+                <a href="https://dantezunino.github.io/mostros/mostros.html" target="_blank" rel="noopener noreferrer"><img src="mostros2.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text">I play Dungeons & Dragons with some friends. At the moment i'm, actually, DMing a campaing and was in need of some shortcuts for monster's rolls. 
+                    I thought it was a good idea to make an XML file to serve as DB and some nice interface for me. I'm slowly but steady filling up all the data i need to complete the project.
+                </p>
+                <p>What does this project tries to show?</p>
+                <ul>
+                    <li>Some level of understandment on DB design and manipulation.</li>
+                    <li>The hability and concentration to handle boring and repetitive tasks.</li>
+                    <li>The hability to find some order to show that information.</li>
+                    <li>Writing and use of an XML file.</li>
+                    <li>Understandment of AJAX.</li>
+                    <li>The knowledge of CSS framework.</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://tabletop-table.herokuapp.com/" target="_blank" rel="noopener noreferrer">Generic Board</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Interactive multiuser tool</h4>
+                <br>
+                <a href="https://tabletop-table.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = "tabletoptable.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text">Same as the monster database, this one here is a tool to make the life of me and my friends easier at the moment of play the game. 
+                    Playing a TTRPG online has some troubles, being one of them the one that the absent of a board produce, and describing the position of everything and 
+                    everyone all the time is not fun. The solution was to make a board.
+                </p>
+                <p>This project is pure functionallity, and only serves the purpose of let everyone knows where they are. To do it i use Socket.io, sending the coordenates and color 
+                    of each square to the server and, from there, to all the online players. You can test this opening the board in 2 different tabs and seeing what happends when 
+                    you click a square in one.
+                </p>
+                <p>What does this project tries to show?</p>
+                <ul>
+                    <li>Hability to develop live interactive pages</li>
+                    <li>Knowledge of different tools, like Socket.io</li>
+                    <li>Hability to read new documentation and understand the content</li>
+                    <li>Practicity</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://pink-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer">Fake Social Network</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Live interactions with JSON repo</h4>
+                <a  href="https://pink-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = "pink.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text">I was learning to use Svelte and decided it was a good idea to use their framework (Sapper) to make 
+                    something for this portfolio.
+                </p>
+                <p>The idea was changing over the days and ended up being this. It's a posting API that saves that post in a JSON file in JSONbin.io, 
+                    also shows you the last 2 post made. If we added a user login and authentication this could be a normal operation in a mainstream 
+                    social network. It also shows you fake trending posts from <a class="text-muted" href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer">jsonplaceholder</a>.
+                </p>
+                <p>
+                    In the other 2 tabs there is an About that tells you a little more about the page, and a silly game. The style of the page is possible 
+                    thanks to Bulma.io.
+                </p>
+                <p>
+                    What does this exercise tries to show?
+                </p>
+                <ul>
+                    <li>Knowledge of frameworks like Sapper</li>
+                    <li>Understandment of JSON format and DB search</li>
+                    <li>Knowledge in handling Promises and HTTP protocols</li>
+                    <li>Use of tools like the ones Svelte provides to reduce code and better the UX</li>
+                </ul>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="espanol" class="shower">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+            <div class="jumbotron">
+                <h1 class="display-3">¡Bienvenido!</h1>
+                <p class="lead">Este es mi portfolio. Espero que, a través de el, pueda mostrarte algunas habilidades que consideres valiosas para tu proyecto. 
+                    Han sido 2 años ya desde mi primer "Hola Mundo!" y al día de hoy me encuentro disfrutando realmente cada vez que me siento a escribir algo nuevo.
+                </p>
+                <hr class="my-4">
+                <p>In la barra de navegación arriba hay links que redirigen a mi perfil de LinkedIn y a mi Curriculum Vitae.</p>
+                <p>A la derecha y también abajo en esta página están los links a algunos proyectos cortos que pretenden enseñarte algunas de mis habilidades.</p>
+                <p>Durante el último mes he estado pensando en distintas formas de mostrar algunas de las cosas que he aprendido a hacer y creo que lo he logrado.</p>
+                <p class="lead">
+                <a class="btn btn-primary btn-lg" onclick="changeLang()" role="button">CAMBIAR IDIOMA</a>
+                </p>
+            </div>
+            <table class="table table-hover">
+                <tbody>
+                <tr class="table-info">
+                    <th scope="row">Lenguajes y herramientas: </th>
+                    <td><span class="badge badge-success">JS</span><span class="badge badge-success">Svelte</span><br><span class="badge badge-success">Java</span><span class="badge badge-success">Sapper</span></td>
+                    <td><span class="badge badge-light">HTML</span><span class="badge badge-light">CSS</span><br><span class="badge badge-light">Bulma</span><span class="badge badge-light">Bootstrap</span></td>
+                    <td><span class="badge badge-warning">NodeJS</span><span class="badge badge-warning">Express</span><span class="badge badge-warning">Socket.io</span></td>
+                    <td><span class="badge badge-primary">JSON</span><span class="badge badge-primary">XML</span><span class="badge badge-primary">SQLite</span></td>
+                    <td><span class="badge badge-secondary">GIT</span></td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="col-4">
+                <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                    <div class="card-header"><a href="https://dantezunino.github.io/tretris/tetristry.html" target="_blank" rel="noopener noreferrer">Tutorial pequeño de Tetris</a></div>
+                    <div class="card-body">
+                    <h4 class="card-title">Leer código ajeno</h4>
+                    <br>
+                    <a href="https://dantezunino.github.io/tretris/tetristry.html" target="_blank" rel="noopener noreferrer"><img src = "tretris.png" class = "img-thumbnail"></a>
+                    <br><br>
+                    <p class="card-text">Quería hacer algún juego corto. Buscando encontré este tutorial de Ania Kubów y me decidí a intentarlo. 
+                        La idea del tutorial es mostrarle a principiantes cómo hacer ciertas cosas básicas. Sin modificar la estructura central del código, 
+                    intenté arreglar algunos de los problemas con los que me fui encontrando.</p>
+                    <p>¿Qué intenta mostrar éste ejercicio?</p>
+                    <ul>
+                        <li>La habilidad para leer y comprender código ajeno</li>
+                        <li>La habilidad de modificar código ajeno</li>
+                        <li>Entendimiento básico de JavaScript, HTML y CSS</li>
+                        <li>La habilidad para seguir y ejecutar instrucciones de forma correcta</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://dantezunino.github.io/mostros/mostros.html" target="_blank" rel="noopener noreferrer">Monstruos de D&D</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Uso de bases de datos estática</h4>
+                
+                <a href="https://dantezunino.github.io/mostros/mostros.html" target="_blank" rel="noopener noreferrer"><img src="mostros2.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text">Yo juego Dungeons & Dragons con unos amigos. De hecho actualmente estoy dirigiendo una campaña, y necesitaba algunos atajos para simular las tiradas de los 
+                    monstruos. Se me ocurrió que era una buena idea hacer un XML para usar como base de datos y una interfaz bonita para mí. Con calma pero seguridad estoy completando la base de datos.
+                </p>
+                <p>¿Qué intenta mostrar este proyecto?</p>
+                <ul>
+                    <li>Cierto nivel de entendimiento en diseño y manipulación de bases de datos</li>
+                    <li>La habilidad y concentración para manejar tareas tediosas y repetitivas</li>
+                    <li>La habilidad para encontrar un orden con el que mostrar esa información</li>
+                    <li>Escritura y uso de un XML</li>
+                    <li>Entendimiento de AJAX</li>
+                    <li>Conocimiento de un framework para CSS</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://tabletop-table.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tablero genérico</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Herramienta interactiva multi-usuario</h4>
+                
+                <a href="https://tabletop-table.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = "tabletoptable.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text"> Al igual que con la base de datos de monstruos ésta herramienta está hecha para facilitarnos la vida a mí y a mis amigos. Jugar un TTRPG por internet tiene 
+                    algunos problemas, siendo uno de ellos el hecho de carecer de un tablero, y describir la posición de cada cosa y cada jugador todos los turnos no es divertido. La solución, entonces, fue 
+                    hacer un tablero.
+                </p>
+                <p>Este proyecto es pura funcionalidad y sólo sirve el propósito de dejarle saber a cada uno dónde se encuentra. Para hacerlo usé Socket.io, enviando al servidor las 
+                    coordenadas y color de cada cuadrado, y una vez desde allí a todos los jugadores. Usted mismo puede testearlo abriendo el tablero en 2 pestañas diferentes y viendo 
+                    qué ocurre cuando clickea un cuadrado en alguna de ellas.
+                </p>
+                <p>¿Qué intenta mostrar este proyecto?</p>
+                <ul>
+                    <li>La habilidad para desarrollar páginas interactivas en vivo</li>
+                    <li>El conocimiento de distintas herramientas, como Socket.io</li>
+                    <li>La habilidad para leer nueva documentación y comprender el contenido</li>
+                    <li>Practicidad</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header"><a href="https://pink-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer">Red Social Falsa</a></div>
+                <div class="card-body">
+                <h4 class="card-title">Interacciones en vivo con repo de JSON</h4>
+                <a  href="https://pink-social-network.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src = "pink.png" class = "img-thumbnail"></a>
+                <br><br>
+                <p class="card-text">Estaba aprendiendo a usar Svelte y decidí que era una buena idea usar su framework (Sapper) para hacer algo para este portfolio.</p>
+                <p>La idea fue cambiando a lo largo de los días y termino de esta forma. Es una API que guarda un post en un JSON, alojado en JSONbin.io. También te muestra 
+                    los últimos dos posteos hechos. Si agregaramos un loggeo y autenticación de usuario esta sería una operación normal de una red social mainstream. También 
+                    muestra un grupo de falsos posteos en tendencia de <a class="text-muted" href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer">jsonplaceholder</a>.
+                </p>
+                <p>
+                    En las otras 2 pestañas hay un "About" que cuenta un poco más sobre la página, y también hay un juego bastante tonto. El diseño de la página hay que agradecérselo 
+                    a Bulma.io.
+                </p>
+                <p>
+                    ¿Qué intenta mostrar este ejercicio?
+                </p>
+                <ul>
+                    <li>Conocimiento de frameworks como Sapper</li>
+                    <li>Entendimiento del formato JSON y de búsqueda en base de datos</li>
+                    <li>Conocimiento en manejo de Promesas y protocolos HTTP</li>
+                    <li>Uso de herramientas como las que provee Svelte para reducir el código y mejorar la experiencia de usuario</li>
+                </ul>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
